@@ -4,7 +4,7 @@
   Foundation.libs.abide = {
     name : 'abide',
 
-    version : '5.5.1',
+    version : '{{VERSION}}',
 
     settings : {
       live_validate : true,
@@ -242,7 +242,6 @@
         }
         validations.push(el_validations[0]);
       }
-      validations = [validations.every(function (valid) {return valid;})];
       return validations;
     },
 
